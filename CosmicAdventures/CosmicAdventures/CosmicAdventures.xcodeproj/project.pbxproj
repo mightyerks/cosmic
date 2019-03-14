@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61CBC227223ADA9100A489EA /* PressStart2P.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 61CBC226223ADA4300A489EA /* PressStart2P.ttf */; };
+		F06D458C222DE30F00B47DCC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D458B222DE30F00B47DCC /* AppDelegate.swift */; };
+		F06D458E222DE30F00B47DCC /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F06D458D222DE30F00B47DCC /* GameScene.sks */; };
+		F06D4590222DE30F00B47DCC /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F06D458F222DE30F00B47DCC /* Actions.sks */; };
+		F06D4592222DE30F00B47DCC /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D4591222DE30F00B47DCC /* GameScene.swift */; };
+		F06D4594222DE30F00B47DCC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06D4593222DE30F00B47DCC /* GameViewController.swift */; };
+		F06D4597222DE30F00B47DCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D4595222DE30F00B47DCC /* Main.storyboard */; };
+		F06D4599222DE30F00B47DCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F06D4598222DE30F00B47DCC /* Assets.xcassets */; };
+		F06D459C222DE30F00B47DCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F06D459A222DE30F00B47DCC /* LaunchScreen.storyboard */; };
+		F09FBD722230398A00899E2F /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = F09FBD712230398900899E2F /* Starfield.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61CBC226223ADA4300A489EA /* PressStart2P.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = PressStart2P.ttf; path = "../../../../../Downloads/codeman38_press-start-2p/PressStart2P.ttf"; sourceTree = "<group>"; };
+		F06D4588222DE30F00B47DCC /* CosmicAdventures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmicAdventures.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F06D458B222DE30F00B47DCC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F06D458D222DE30F00B47DCC /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F06D458F222DE30F00B47DCC /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F06D4591222DE30F00B47DCC /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F06D4593222DE30F00B47DCC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		F06D4596222DE30F00B47DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F06D4598222DE30F00B47DCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F06D459B222DE30F00B47DCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F06D459D222DE30F00B47DCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F09FBD712230398900899E2F /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		F09FBD7322348CC300899E2F /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F06D4585222DE30F00B47DCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61CBC225223ADA1000A489EA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				61CBC226223ADA4300A489EA /* PressStart2P.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F06D457F222DE30E00B47DCC = {
+			isa = PBXGroup;
+			children = (
+				F06D458A222DE30F00B47DCC /* CosmicAdventures */,
+				F06D4589222DE30F00B47DCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F06D4589222DE30F00B47DCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F06D4588222DE30F00B47DCC /* CosmicAdventures.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F06D458A222DE30F00B47DCC /* CosmicAdventures */ = {
+			isa = PBXGroup;
+			children = (
+				61CBC225223ADA1000A489EA /* fonts */,
+				F06D458B222DE30F00B47DCC /* AppDelegate.swift */,
+				F06D458D222DE30F00B47DCC /* GameScene.sks */,
+				F06D458F222DE30F00B47DCC /* Actions.sks */,
+				F09FBD712230398900899E2F /* Starfield.sks */,
+				F06D4591222DE30F00B47DCC /* GameScene.swift */,
+				F06D4593222DE30F00B47DCC /* GameViewController.swift */,
+				F06D4595222DE30F00B47DCC /* Main.storyboard */,
+				F06D4598222DE30F00B47DCC /* Assets.xcassets */,
+				F06D459A222DE30F00B47DCC /* LaunchScreen.storyboard */,
+				F06D459D222DE30F00B47DCC /* Info.plist */,
+				F09FBD7322348CC300899E2F /* music.m4a */,
+			);
+			path = CosmicAdventures;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F06D4587222DE30F00B47DCC /* CosmicAdventures */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F06D45A0222DE30F00B47DCC /* Build configuration list for PBXNativeTarget "CosmicAdventures" */;
+			buildPhases = (
+				F06D4584222DE30F00B47DCC /* Sources */,
+				F06D4585222DE30F00B47DCC /* Frameworks */,
+				F06D4586222DE30F00B47DCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CosmicAdventures;
+			productName = CosmicAdventures;
+			productReference = F06D4588222DE30F00B47DCC /* CosmicAdventures.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F06D4580222DE30E00B47DCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Team2;
+				TargetAttributes = {
+					F06D4587222DE30F00B47DCC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = F06D4583222DE30E00B47DCC /* Build configuration list for PBXProject "CosmicAdventures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F06D457F222DE30E00B47DCC;
+			productRefGroup = F06D4589222DE30F00B47DCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F06D4587222DE30F00B47DCC /* CosmicAdventures */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F06D4586222DE30F00B47DCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F09FBD722230398A00899E2F /* Starfield.sks in Resources */,
+				61CBC227223ADA9100A489EA /* PressStart2P.ttf in Resources */,
+				F06D4597222DE30F00B47DCC /* Main.storyboard in Resources */,
+				F06D458E222DE30F00B47DCC /* GameScene.sks in Resources */,
+				F06D4599222DE30F00B47DCC /* Assets.xcassets in Resources */,
+				F06D459C222DE30F00B47DCC /* LaunchScreen.storyboard in Resources */,
+				F06D4590222DE30F00B47DCC /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F06D4584222DE30F00B47DCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F06D4592222DE30F00B47DCC /* GameScene.swift in Sources */,
+				F06D4594222DE30F00B47DCC /* GameViewController.swift in Sources */,
+				F06D458C222DE30F00B47DCC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F06D4595222DE30F00B47DCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06D4596222DE30F00B47DCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F06D459A222DE30F00B47DCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F06D459B222DE30F00B47DCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F06D459E222DE30F00B47DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F06D459F222DE30F00B47DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F06D45A1222DE30F00B47DCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmicAdventures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Team-2.CosmicAdventures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F06D45A2222DE30F00B47DCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CosmicAdventures/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Team-2.CosmicAdventures";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F06D4583222DE30E00B47DCC /* Build configuration list for PBXProject "CosmicAdventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06D459E222DE30F00B47DCC /* Debug */,
+				F06D459F222DE30F00B47DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F06D45A0222DE30F00B47DCC /* Build configuration list for PBXNativeTarget "CosmicAdventures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F06D45A1222DE30F00B47DCC /* Debug */,
+				F06D45A2222DE30F00B47DCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F06D4580222DE30E00B47DCC /* Project object */;
+}
